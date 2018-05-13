@@ -17,7 +17,7 @@ client.on("message", (message) => {
     message.channel.send({embed: {
       color: 3447003,
       title: "__HatleKan Discord:__\n \n",
-      description: "** **\nhttps://discord.gg/JuuVp5D",
+      description: "** **\nhttps://discord.gg/FBWC9cp",
       footer: 
       {
           icon_url: client.user.avatarURL,
