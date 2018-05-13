@@ -4,7 +4,7 @@ var bot = new Discord.Client();
 
 client.on('ready', () => {
   client.user.setStatus("online");
-  client.user.setGame("/network help | MigServer Bot");
+  client.user.setGame("/network help | HatleKan Bot");
   console.log("Reload Completed!");
 });
 
@@ -16,12 +16,12 @@ client.on("message", (message) => {
   if (message.content === (prefix + "discord")) {
     message.channel.send({embed: {
       color: 3447003,
-      title: "__MigServer Discord:__\n \n",
+      title: "__HatleKan Discord:__\n \n",
       description: "** **\nhttps://discord.gg/JuuVp5D",
       footer: 
       {
           icon_url: client.user.avatarURL,
-          text: "MigServer Network"
+          text: "Hatlekan Network"
       }
     }});
   } else
@@ -29,16 +29,17 @@ client.on("message", (message) => {
     message.channel.send({embed: {
       color: 3447003,
       title: "__MigServer Apply:__\n \n",
-      description: "** **\nhttps://docs.google.com/forms/d/e/1FAIpQLSdAcbc6iCUbI_YnKiMAKwXVxl87nuDJFb5WbA_Mutthrw4BDw/viewform",
+      description: "** **\n"https://goo.gl/forms/BJwPkqXXXV0ltE943"
       footer: 
       {
           icon_url: client.user.avatarURL,
-          text: "MigServer Network"
+          text: "Hatlekan Network"
       }
     }});
   } else
   if (message.content === (prefix + "creator")) {
-    message.channel.send("The Creator of the Bot is `Derpy#6522`");
+    message.channel.send("The Creator of the Bot is `Marshi [DEVELOPER]#0526
+`");
   } else
   if (message.content === (prefix + "invite")) {
     message.author.sendMessage("**__Invite The Bot:__**\n \nhttps://discordapp.com/api/oauth2/authorize?client_id=426357120993198090&permissions=0&scope=bot");
@@ -47,12 +48,12 @@ client.on("message", (message) => {
   if (message.content === (prefix + "help")) {
     message.author.sendMessage({embed: {
      color: 0xbf0000,
-     title: "__MigServer Commands:__\n \n",
+     title: "__Hatlekan Commands:__\n \n",
      description: "** **\n**/network discord ** - Discord Link\n**/network creator** - The Creators of the Bot\n**/network apply** - Staff Apply\n**/network ping** - Show to you how much Ping you have\n**/network youtube** - Show to you the link to Youtube Channel\n**/network ip** - the IP of the Server\n**/network vote** - Vote Link\n**/network avatar** - show your avatar profile\n**/network ranks** - Show to you the Ranks list of the Server\n**/network store** - Store of the Server\n**/network website** - The Website of the Server\n**/network help** - Show this Menu",
      footer: 
      {
          icon_url: client.user.avatarURL,
-         text: "MigServer Network"
+         text: "Hatlekan Network"
      }
    }});
     message.reply("Please check your direct messages :mailbox_with_no_mail:");
@@ -60,12 +61,12 @@ client.on("message", (message) => {
   if (message.content === (prefix + "ranks")) {
     message.author.sendMessage({embed: {
      color: 3447003,
-     title: "__MigServer Ranks:__\n \n",
+     title: "__Hatlekan Ranks:__\n \n",
      description: "** **\n**OWNER**\n**CO-OWNER**\n**S-MANAGER**\n**D-MANAGER**\n**DEV**\n**H-ADMIN**\n**ADMIN**\n**M-MANAGER**\n**MOD**\n**HELPER**\n**B-MANAGER**\n**BUILDER**\n**YOUTUBER**\n**LEGEND**\n**SUPER**\n**HERO+**\n**HERO**\n**VIP+**\n**VIP**\n**MEMBER**",
      footer: 
      {
          icon_url: client.user.avatarURL,
-         text: "MigServer Network"
+         text: "Hatlekan Network"
      }
    }});
     message.reply("Please check your direct messages :mailbox_with_no_mail:");
@@ -73,48 +74,48 @@ client.on("message", (message) => {
   if (message.content === (prefix + "ip")) {
     message.channel.send({embed: {
       color: 3447003,
-      title: "__MigServer IP:__\n \n",
-      description: "** **\n**migserver.mcnetwork.me**",
+      title: "__Hatlekan IP:__\n \n",
+      description: "** **\n**Soon**",
       footer: 
       {
           icon_url: client.user.avatarURL,
-          text: "MigServer Network"
+          text: "Hatlekan Network"
       }
     }});
   } else
   if (message.content === (prefix + "youtube")) {
     message.channel.send({embed: {
       color: 3447003,
-      title: "__MigServer Youtube Channel:__\n \n",
-      description: "** **\nhttps://www.youtube.com/channel/UCuPaetf28pN6knc1MdpriCg?view_as=subscriber",
+      title: "__Hatlekan Youtube Channel:__\n \n",
+      description: "** **\nsoon",
       footer: 
       {
           icon_url: client.user.avatarURL,
-          text: "MigServer Network"
+          text: "Hatlekan Network"
       }
     }});
   } else
   if (message.content === (prefix + "vote")) {
     message.channel.send({embed: {
       color: 3447003,
-      title: "__MigServer Vote Website:__\n \n",
-      description: "** **\nhttps://topg.org/Minecraft/in-489313",
+      title: "__Hatlekan Vote Website:__\n \n",
+      description: "** **\nSoon",
       footer: 
       {
           icon_url: client.user.avatarURL,
-          text: "MigServer Network"
+          text: "Hatlekan Network"
       }
     }});
  } else
   if (message.content === (prefix + "website")) {
     message.channel.send({embed: {
       color: 3447003,
-      title: "__MigServer Website:__\n \n",
+      title: "__Hatlekan Website:__\n \n",
       description: "** **\n**SOON**",
       footer: 
       {
           icon_url: client.user.avatarURL,
-          text: "MigServer Network"
+          text: "Hatlekan Network"
       }
     }});
  } else
@@ -126,7 +127,7 @@ client.on("message", (message) => {
       footer: 
       {
           icon_url: client.user.avatarURL,
-          text: "MigServer Network"
+          text: "Hatlekan Network"
       }
     }});
  } else
@@ -143,7 +144,7 @@ client.on("message", (message) => {
          timestamp: new Date(),
          footer: {
            icon_url: client.user.avatarURL,
-           text: "MigServer Network"
+           text: "Hatlekan Network"
        }
      }});
  } else
@@ -182,7 +183,7 @@ client.on("message", (message) => {
          timestamp: new Date(),
          footer: {
            icon_url: client.user.avatarURL,
-           text: "MigServer Network"
+           text: "Hatlekan Network"
        }
      }});
   }
