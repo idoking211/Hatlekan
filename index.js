@@ -38,7 +38,7 @@ client.on("message", (message) => {
     }});
   } else
   if (message.content === (prefix + "creator")) {
-    message.channel.send("The Creator of the Bot is `Marshi [DEVELOPER]#0526
+    message.channel.send("The Creator of the Bot is `Marshi [DEVELOPER]#0526`
 `");
   } else
   if (message.content === (prefix + "invite")) {
